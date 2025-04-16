@@ -6,7 +6,7 @@
 // The default selector is '[counter-element="number"]'.
 
 export function numberRollupObserver({
-    selector = '[counter-element="number"]',
+    selector = '[data-rollup-number]',
     defaultDuration = 2000,
   } = {}) {
     const animateNumber = (element, target, duration) => {

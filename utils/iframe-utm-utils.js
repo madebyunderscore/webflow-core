@@ -4,7 +4,7 @@
 // If no ID is provided, it defaults to 'mf_iframe'.
 // If the iframe is not found, it does nothing.
 
-export function updateIframeWithUTM(targetId = 'mf_iframe') {
+export function updateIframeWithUTM(targetId = 'utmIframe') {
     const iframe = document.getElementById(targetId);
     if (!iframe) return;
   
