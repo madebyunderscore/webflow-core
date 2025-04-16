@@ -10,7 +10,7 @@
 	  "./styles/*": "./styles/*.css"
 	},
 	"publishConfig": {
-	  "access": "restricted"
+	  "access": "public"
 	},
 	"dependencies": {
 	  "swiper": "^11.2.6",
