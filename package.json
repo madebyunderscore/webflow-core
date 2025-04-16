@@ -1,13 +1,16 @@
 {
 	"name": "@underscore/webflow-core",
 	"version": "1.0.0",
-	"description": "Shared JS/CSS utilities for Underscore's Webflow projects",
-	"author": "Underscore",
-	"license": "MIT",
+	"description": "Internal shared JS/CSS utilities for Underscore's Webflow client projects.",
+	"author": "Underscore Pte. Ltd.",
+	"license": "UNLICENSED",
 	"main": "index.js",
 	"exports": {
 	  "./utils/*": "./utils/*.js",
 	  "./styles/*": "./styles/*.css"
+	},
+	"publishConfig": {
+	  "access": "restricted"
 	},
 	"dependencies": {
 	  "swiper": "^11.2.6",
